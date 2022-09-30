@@ -1,5 +1,5 @@
 
-Copyright (c) 2019, Saketh Varma <sakethbobby@gmail.com>
+Copyright (c) 2022, Kaweesi Martin Anderson <kaweesimartinanderson@gmail.com>
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above

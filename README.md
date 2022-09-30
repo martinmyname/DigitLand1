@@ -1,14 +1,18 @@
-# property-exchange: a real-estate application powered by Ethereum blockchain
+# DigitLand: a land ownership and real-estate application powered by Ethereum blockchain
 
 <br>
 
-## Author: Saketh Varma, Pericherla
+## Authors: This is a group project of 4 
+-Kaweesi Martin Anderson
+-Nannungi Rebecca
+-Bariyo Derrick
+-Kalema George
 
-Demo at <a href="https://youtu.be/EA9PAkR1seQ">https://youtu.be/EA9PAkR1seQ</a>
+
 
 ## Introduction:
 
-- Property exchange is a unified online marketplace for buying and selling properties. All the steps involved in the sale are made completely transparent and verifiable by leveraging the Ethereum Blockchain.
+- DigitLand is a unified online marketplace for buying and selling properties. All the steps involved in the sale are made completely transparent and verifiable by leveraging the Ethereum Blockchain.
 
 - Each property is represented as a single non-fungible token(NFT) using the ERC721 Standard.
 
@@ -18,7 +22,8 @@ Demo at <a href="https://youtu.be/EA9PAkR1seQ">https://youtu.be/EA9PAkR1seQ</a>
 
 ## Application Flow:
 
-- Once the buyer chooses a property to buy from the provided listings, the buyer requests an escrow officer to foresee the sale.
+- Once the owner of a property signs up and adds land, verification of the person and the land is done and eligible to be a seller.
+- Then the buyer can choose a property to buy from the provided listings of any seller, the buyer requests an escrow officer to foresee the sale.
 - Once the escrow officer is onboard, he/she generates an agreement which specifies the terms and conditions pertaining to the sale of the property.
 - The agreement will be reviewed and signed by both the buyer and the seller.
 - The buyer then transfers the deposit amount to the escrow.
@@ -61,7 +66,7 @@ $ truffle test
 
 ```bash
 
-$ git clone https://github.com/socket-var/px-bootcamp.git
+$ git clone https://github.com/martinmyname/DigitLand1
 $ cd client
 $ npm install
 $ cd server
@@ -71,7 +76,7 @@ $ npm install
 ### Running the app:
 
 ```bash
-$ cd px-bootcamp
+$ cd digitland
 $ cd server
 $ npm start dev
 ```

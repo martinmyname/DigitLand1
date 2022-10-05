@@ -14,7 +14,7 @@ const items = [
 		caption: "Legit Property",
 	},
 	// {
-	// 	src: "https://res.cloudinary.com/itgenius/image/upload/v1664904897/fog-forest-19186761_yefcgv.jpg",
+	// 	src: "https://res.cloudinary.com/itgenius/image/upload/v1664953256/images_2_lfgout.jpg",
 	// 	altText: "Slide 2",
 	// 	caption: "Slide 2",
 	// },
@@ -73,12 +73,18 @@ class Example extends Component {
 		const slides = items.map((item) => {
 			return (
 				<CarouselItem
+					style={{ fontFamily: "fantasy" }}
 					onExiting={this.onExiting}
 					onExited={this.onExited}
 					key={item.src}
 				>
-					<img style={{width:"100%"}} src={item.src} alt={item.altText} />
+					<img
+						style={{ width: "100%", height: "40" }}
+						src={item.src}
+						alt={item.altText}
+					/>
 					<CarouselCaption
+					style={{ fontFamily: "fantasy" }}
 						captionText={item.caption}
 						captionHeader={item.caption}
 					/>

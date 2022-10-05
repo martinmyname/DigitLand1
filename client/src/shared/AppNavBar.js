@@ -35,9 +35,9 @@ class AppNavBar extends Component {
     const { role } = this.props.user;
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="light" light expand="md" style={{fontFamily:"fantasy"}}>
           <NavbarBrand tag={RRNavLink} to="/">
-            PropX
+            Digiti Land
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

@@ -1,6 +1,7 @@
 import HomePage from "../Home/HomePage";
 import Auth from "../Auth/Auth";
 import Register from "../Auth/Register";
+import NewReg from "../Auth/NewReg";
 
 export default [
 	{
@@ -15,5 +16,9 @@ export default [
 	{
 		path: "/register",
 		component: Register,
+	},
+	{
+		path: "/newreg",
+		component: NewReg,
 	},
 ];

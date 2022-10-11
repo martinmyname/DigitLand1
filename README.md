@@ -43,7 +43,7 @@
 - Make sure the port on which ganache is running is correct in truffle-config.js, if you are using ganche GUI it should run on 7545.
 
 ```bash
-$ cd px-bootcamp
+$ cd digitLand 
 $ npm install
 $ truffle migrate --reset
 ```
